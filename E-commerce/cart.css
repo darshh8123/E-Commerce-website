@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#cart {
+    padding: 40px;
+    text-align: center;
+}
+
+#cart h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove-from-cart {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-from-cart:hover {
+    background-color: darkred;
+}
+
+
+
+#checkout-button:hover {
+    background-color: darkgreen;
+}
+/* Checkout Section just below the product list */
+#checkout-section {
+    margin-top: 20px; /* Just a small gap below the product list */
+    text-align: center; /* Center the checkout button */
+}
+
+/* Checkout Button Style (Green) */
+.checkout-btn {
+    background-color: #28a745; /* Green color */
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.checkout-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Processing Message Style */
+.processing-message {
+    font-size: 20px;
+    color: #FF6347;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    display: none; /* Hidden by default */
+}
+
+
+/* #cart-count {
+    font-weight: bold;
+    color: red;
+}
+
+/* Cart Count Styling */
+/* #cart-count {
+    font-weight: bold;
+    color: red;
+} */ */
+
+/* Checkout Button */
+.checkout-btn {
+    background-color: #FFD700;
+    color: #333;
+    font-size: 12px;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.checkout-btn:hover {
+    background-color: #FF6347;
+}
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy | Your Online Shopping Partner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><u>ShopEasy</u></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                <li>
+                    <select id="category-filter">
+                        <option value="all">All Categories</option>
+                        <option value="electric">Electric Gadgets</option>
+                        <option value="fashion">Fashion</option>
+                        <option value="home-appliances">Home Appliances</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p id="popup-message">Product added to the cart!</p>
+            <button id="close-popup">Close</button>
+        </div>
+    </div>
+
+    <section id="offer-banner">
+        <div class="offer-content">
+            <h2>Special Offer!</h2>
+            <p>Get up to 50% off on all products. Don't miss out!</p>
+            <a href="#products" class="shop-now-btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <!-- Products will be dynamically added here -->
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <p>Thank you for visiting ShopEasy!</p>
+            <p>Stay connected and enjoy your shopping experience.</p>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html> 
+
+
