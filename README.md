@@ -5,4 +5,4 @@ A fully responsive online store interface with product listings, cart functional
 
 Deployed Link: https://ecommercedarsh.netlify.app/
 
-![Uploading Screenshot 2025-09-30 000540.png…]()
+<img width="1897" height="820" alt="Screenshot 2025-09-30 000540" src="https://github.com/user-attachments/assets/b5688177-438b-4936-a3b7-be43704b28e6" />
